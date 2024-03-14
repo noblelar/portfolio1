@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import TypeWriter from "../typewriter/typewriter";
+import { IHiMessage } from "../utils/type";
 
-const Hithere = [
+const Hithere: IHiMessage[] = [
   {
     part1: "Console",
     part2: "log",
@@ -28,13 +29,13 @@ const hello = [
   Hithere.map((hi, h) => {
     return (
       <div key={h}>
-        <span className=" text-[#d66972] ">{Hithere[0].part1}</span>.
-        <span className=" text-[#55b2be] ">{Hithere[0].part2}</span>
-        <span className=" ">{Hithere[0].part3}</span>
+        <span className=" text-[#d66972] ">{hi.part1}</span>.
+        <span className=" text-[#55b2be] ">{hi.part2}</span>
+        <span className=" ">{hi.part3}</span>
         <span className=" text-[#8cb372] ">
           {'"'} Hi There ! {'"'}
         </span>
-        <span className="">{Hithere[0].part4}</span>;
+        <span className="">{hi.part4}</span>;
       </div>
     );
   }),
@@ -45,9 +46,12 @@ const Homepage = () => {
     <section className=" bg-black/90 h-[70vh] ">
       <div className=" container m-auto ">
         <div className=" text-center ">
-          <TypeWriter/>
+          {Hithere.map((hi, h) => {
+            return <TypeWriter typeMess={hi} key={h} />;
+          })}
+
           <Typewriter
-            words={[ "<span>Eat</span>", "Sleep", "Code", "Repeat!"]}
+            words={["<span>Eat</span>", "Sleep", "Code", "Repeat!"]}
             // words={hello}
             loop={0}
             cursor

@@ -1,27 +1,27 @@
 import Typewriter from "typewriter-effect";
 
 import React from "react";
+import { IHiMessage } from "../utils/type";
 
-const TypeWriter = () => {
+const TypeWriter = ({ typeMess }: { typeMess: IHiMessage }) => {
   return (
     <div>
       <Typewriter
+        options={{
+          strings: [""],
+          loop: true,
+        }}
         onInit={(typewriter) => {
           typewriter
             .typeString(
-              `<span className=" text-[#d66972] ">{Hithere[0].part1}</span>.
-            <span className=" text-[#55b2be] ">{Hithere[0].part2}</span>
-            <span className=" ">{Hithere[0].part3}</span>
-            <span className=" text-[#8cb372] ">
-              {'"'} Hi There ! {'"'}
-            </span>
-            <span className="">{Hithere[0].part4}</span>;`
+              `<span className=" !text-[#d66972] " style="color:#d66972;">${typeMess.part1}</span>.<span className=" text-[#55b2be] " style="color:#55b2be;" >${typeMess.part2}</span><span className=" ">${typeMess.part3}</span><span className=" text-[#8cb372] " style="color:#8cb372;">" Hi There ! "</span><span className="">${typeMess.part4}</span>;`
             )
             .callFunction(() => {
               console.log("String typed out!");
             })
-            .pauseFor(2500)
+            .pauseFor(2000)
             .deleteAll()
+
             .callFunction(() => {
               console.log("All strings were deleted");
             })
