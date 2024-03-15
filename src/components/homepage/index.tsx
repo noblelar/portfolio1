@@ -1,19 +1,26 @@
 import Image from "next/image";
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
-import TypeWriter from "../typewriter/typewriter";
-import { IHiMessage } from "../utils/type";
+
 import Slider1 from "../slider/slider";
 
 const Homepage = () => {
   return (
-    <section className=" bg-black/90 h-[70vh] ">
+    <section className=" bg-black/90 h-[90vh] ">
       <div className=" container m-auto ">
-        <div className=" text-center ">
-          <Slider1 />
-          <div> I am Noble Ackor </div>
+        <div className=" text-center py-[10vh] ">
           <div>
-            A Full stuck Developer Specialised in: MERN Stuck and .NET C#
+            <div className=" font-tegomin ">
+              <Slider1 />
+            </div>
+            <div className=" font-mulish text-[2rem] ">
+              I&apos;m <br />{" "}
+              <span className=" font-bold text-[3.5rem]   ">Noble Ackor</span>
+            </div>
+            <div className=" font-playfair text-[1.4rem] ">
+              <div className="  ">A Software Engineer</div>
+              <span className=" font-tegomin text-[2rem] ">&</span>
+              <div>A Renewable Energy Engineer</div>
+            </div>
           </div>
         </div>
       </div>
