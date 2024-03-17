@@ -6,6 +6,7 @@ import Slider1 from "../slider/slider";
 const Homepage = () => {
   return (
     <section className=" bg-black/90 h-[90vh] ">
+      {/* Introduction  */}
       <div className=" container m-auto ">
         <div className=" text-center py-[10vh] ">
           <div>
@@ -24,8 +25,10 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+
+      {/* Picture and Motivational quote */}
       <div className=" container m-auto ">
-        <div className=" flex ">
+        <div className=" grid grid-cols-2 max-md:grid-cols-1 ">
           <div>
             <Image
               // className="pt-2"
@@ -36,6 +39,16 @@ const Homepage = () => {
               height={400}
               quality={100}
             />
+          </div>
+          <div>
+            <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+              <div className="p-6">
+                <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                  The most certain way to succeed is to always try one more
+                  time.
+                </h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
