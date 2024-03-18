@@ -39,8 +39,8 @@ const Homepage = () => {
               quality={100}
             />
           </div>
-          <div className=" flex justify-center items-center m-auto max-lg:my-8 max-lg:mx-4 w-full ">
-            <div className="relative flex mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl justify-center items-center lg:w-[90%] " >
+          <div className=" flex justify-center items-center m-auto max-lg:my-8 w-full ">
+            <div className="relative flex mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl justify-center items-center lg:w-[90%] max-lg:mx-4 ">
               <div className="p-6 m-auto ">
                 <h5 className="block mb-2 font-playfair  font-semibold leading-snug tracking-normal text-blue-gray-900 lg:text-[3rem] text-justify italic text-[1.4rem] ">
                   The most certain way to succeed is to always <br />
@@ -53,6 +53,37 @@ const Homepage = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* About Session */}
+      <div className=" bg-black/85   ">
+        <div className=" container m-auto lg:h-[70vh] lg:p-4 max-lg:py-8 ">
+          <h2 className=" m-auto text-center font-playfair font-bold text-[2rem] ">
+            ABOUT
+          </h2>
+          <div className=" grid grid-cols-2 lg:space-x-4 max-lg:space-y-8 max-lg:grid-cols-1 ">
+            <div className=" justify-center items-center text-justify p-4 text-[1.4rem] text-white/70 ">
+              <h3 className=" font-tegomin font-bold italic text-[1.7rem]  text-white/90 ">
+                Dream Big
+              </h3>
+              In the realm of digitalization, where every line of code weaves
+              the fabric of our future, and every innovative idea ignites the
+              beacon of progress, I am thrilled to cast my own light on the
+              horizons of Technology. With a solid background in Renewable
+              Energy Engineering and skill set on Software Engineering, I am
+              clearly a man on a missioin, and here to spark a digital
+              revolution.
+            </div>
+            <div className=" justify-center items-center text-justify p-4 text-[1.4rem] text-white/70 ">
+              <h3 className=" font-tegomin font-bold italic text-[1.7rem]  text-white/90 ">
+                My Journey
+              </h3>
+              Being driven by an inner zeal, I conquered a lot on my own. Yes. 
+              
+            </div>
+            <div></div>
           </div>
         </div>
       </div>
