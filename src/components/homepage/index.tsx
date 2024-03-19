@@ -60,6 +60,50 @@ const Homepage = () => {
       {/* About Session */}
       <div className=" bg-black/85   ">
         <div className=" container m-auto lg:h-[70vh] lg:p-4 max-lg:py-8 ">
+          <div className=" m-auto ">
+            <div className=" flex items-center justify-center">
+              <Image
+                className=""
+                src={"/images/twitter-brands.svg"}
+                alt="My image"
+                width={40}
+                height={40}
+                quality={100}
+              />
+              <Image
+                className=""
+                src={"/images/linkedin-brands.svg"}
+                alt="My image"
+                width={40}
+                height={40}
+                quality={100}
+              />
+              <Image
+                className=""
+                src={"/images/envelop-open-regular.svg"}
+                alt="My image"
+                width={40}
+                height={40}
+                quality={100}
+              />
+              <Image
+                className=""
+                src={"/images/github-brands.svg"}
+                alt="My image"
+                width={40}
+                height={40}
+                quality={100}
+              />
+              <Image
+                className=""
+                src={"/images/instagram-brands.svg"}
+                alt="My image"
+                width={40}
+                height={40}
+                quality={100}
+              />
+            </div>
+          </div>
           <h2 className=" m-auto text-center font-playfair font-bold text-[2rem] ">
             ABOUT
           </h2>
@@ -80,12 +124,16 @@ const Homepage = () => {
               <h3 className=" font-tegomin font-bold italic text-[1.7rem]  text-white/90 ">
                 My Journey
               </h3>
-              Being driven by an inner zeal, I conquered a lot on my own. Yes. I enjoyed my <b>Self-Taught</b> web-development Journey. Upon starting my BSc in Renewable Energy Engineering with my skyrocketing inquisitivity, I challenged myself with the learning of a programing Languague after following industry trends and realising how fast various Engineering field are been Digitised with AI integration in recent years. I can proudly say that I thrive in my challenge.
-              
+              Being driven by an inner zeal, I conquered a lot on my own. Yes. I
+              enjoyed my <b>Self-Taught</b> web-development Journey. Upon
+              starting my BSc in Renewable Energy Engineering with my
+              skyrocketing inquisitivity, I challenged myself with the learning
+              of a programing Languague after following industry trends and
+              realising how fast various Engineering field are been Digitised
+              with AI integration in recent years. I can proudly say that I
+              thrive in my challenge.
             </div>
-            <div>
-              
-            </div>
+            <div></div>
           </div>
         </div>
       </div>
