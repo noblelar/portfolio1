@@ -80,10 +80,12 @@ const Homepage = () => {
               <h3 className=" font-tegomin font-bold italic text-[1.7rem]  text-white/90 ">
                 My Journey
               </h3>
-              Being driven by an inner zeal, I conquered a lot on my own. Yes. 
+              Being driven by an inner zeal, I conquered a lot on my own. Yes. I enjoyed my <b>Self-Taught</b> web-development Journey. Upon starting my BSc in Renewable Energy Engineering with my skyrocketing inquisitivity, I challenged myself with the learning of a programing Languague after following industry trends and realising how fast various Engineering field are been Digitised with AI integration in recent years. I can proudly say that I thrive in my challenge.
               
             </div>
-            <div></div>
+            <div>
+              
+            </div>
           </div>
         </div>
       </div>
