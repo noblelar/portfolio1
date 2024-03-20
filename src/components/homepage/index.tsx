@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import Slider1 from "../slider/slider";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -61,47 +62,58 @@ const Homepage = () => {
       <div className=" bg-black/85   ">
         <div className=" container m-auto lg:h-[70vh] lg:p-4 max-lg:py-8 ">
           <div className=" m-auto ">
-            <div className=" flex items-center justify-center">
-              <Image
-                className=""
-                src={"/images/twitter-brands.svg"}
-                alt="My image"
-                width={40}
-                height={40}
-                quality={100}
-              />
-              <Image
-                className=""
-                src={"/images/linkedin-brands.svg"}
-                alt="My image"
-                width={40}
-                height={40}
-                quality={100}
-              />
-              <Image
-                className=""
-                src={"/images/envelop-open-regular.svg"}
-                alt="My image"
-                width={40}
-                height={40}
-                quality={100}
-              />
-              <Image
-                className=""
-                src={"/images/github-brands.svg"}
-                alt="My image"
-                width={40}
-                height={40}
-                quality={100}
-              />
-              <Image
-                className=""
-                src={"/images/instagram-brands.svg"}
-                alt="My image"
-                width={40}
-                height={40}
-                quality={100}
-              />
+            <div className=" flex items-center justify-center space-x-6">
+              <Link href={""} target="_blank">
+                <Image
+                  className=""
+                  src={"/images/twitter-brands.svg"}
+                  alt="My image"
+                  width={40}
+                  height={40}
+                  quality={100}
+                />
+              </Link>
+              <Link href={""} target="_blank">
+                <Image
+                  className=""
+                  src={"/images/linkedin-brands.svg"}
+                  alt="My image"
+                  width={40}
+                  height={40}
+                  quality={100}
+                />
+              </Link>
+
+              <Link href={""} target="_blank">
+                <Image
+                  className=""
+                  src={"/images/envelope-open-regular.svg"}
+                  alt="My image"
+                  width={40}
+                  height={40}
+                  quality={100}
+                />
+              </Link>
+              <Link href={""} target="_blank">
+                <Image
+                  className=""
+                  src={"/images/github-brands.svg"}
+                  alt="My image"
+                  width={40}
+                  height={40}
+                  quality={100}
+                />
+              </Link>
+              <Link href={""} target="_blank">
+                <Image
+                  className=""
+                  src={"/images/instagram-brands.svg"}
+                  alt="My image"
+                  width={40}
+                  height={40}
+                  quality={100}
+                />
+              </Link>
             </div>
           </div>
           <h2 className=" m-auto text-center font-playfair font-bold text-[2rem] ">
