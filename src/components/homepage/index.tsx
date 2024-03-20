@@ -63,7 +63,7 @@ const Homepage = () => {
         <div className=" container m-auto lg:h-[70vh] lg:p-4 max-lg:py-8 ">
           <div className=" m-auto ">
             <div className=" flex items-center justify-center space-x-6 my-6 ">
-              <Link href={""} target="_blank">
+              <Link href={"https://twitter.com/LarteyNoble"} target="_blank">
                 <Image
                   className=""
                   src={"/images/twitter-brands.svg"}
@@ -73,7 +73,7 @@ const Homepage = () => {
                   quality={100}
                 />
               </Link>
-              <Link href={""} target="_blank">
+              <Link href={"https://www.linkedin.com/in/ackor-noble-8a3214209"} target="_blank">
                 <Image
                   className=""
                   src={"/images/linkedin-brands.svg"}
@@ -84,7 +84,7 @@ const Homepage = () => {
                 />
               </Link>
 
-              <Link href={""} target="_blank">
+              <Link href={"mailto:nobleackor@gmail.com"} target="_blank">
                 <Image
                   className=""
                   src={"/images/envelope-open-regular.svg"}
@@ -94,7 +94,7 @@ const Homepage = () => {
                   quality={100}
                 />
               </Link>
-              <Link href={""} target="_blank">
+              <Link href={"https://github.com/noblelar"} target="_blank">
                 <Image
                   className=""
                   src={"/images/github-brands.svg"}
@@ -104,7 +104,7 @@ const Homepage = () => {
                   quality={100}
                 />
               </Link>
-              <Link href={""} target="_blank">
+              <Link href={"https://www.instagram.com/noblelartey/"} target="_blank">
                 <Image
                   className=""
                   src={"/images/instagram-brands.svg"}
