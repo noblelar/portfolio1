@@ -62,7 +62,7 @@ const Homepage = () => {
       <div className=" bg-black/85   ">
         <div className=" container m-auto lg:h-[70vh] lg:p-4 max-lg:py-8 ">
           <div className=" m-auto ">
-            <div className=" flex items-center justify-center space-x-6">
+            <div className=" flex items-center justify-center space-x-6 my-6 ">
               <Link href={""} target="_blank">
                 <Image
                   className=""
