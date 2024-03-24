@@ -3,6 +3,7 @@ import React from "react";
 
 import Slider1 from "../slider/slider";
 import Link from "next/link";
+import { ThreeDCardDemo } from "../card/card3D";
 
 const Homepage = () => {
   return (
@@ -60,7 +61,7 @@ const Homepage = () => {
 
       {/* About Session */}
       <div className=" bg-black/85   ">
-        <div className=" container m-auto lg:h-[70vh] lg:p-4 max-lg:py-8 ">
+        <div className=" container m-auto lg:min-h-[70vh]  max-lg:py-8 lg:p-[3rem] ">
           <div className=" m-auto ">
             <div className=" flex items-center justify-center space-x-6 my-6 ">
               <Link href={"https://twitter.com/LarteyNoble"} target="_blank">
@@ -73,7 +74,10 @@ const Homepage = () => {
                   quality={100}
                 />
               </Link>
-              <Link href={"https://www.linkedin.com/in/ackor-noble-8a3214209"} target="_blank">
+              <Link
+                href={"https://www.linkedin.com/in/ackor-noble-8a3214209"}
+                target="_blank"
+              >
                 <Image
                   className=""
                   src={"/images/linkedin-brands.svg"}
@@ -104,7 +108,10 @@ const Homepage = () => {
                   quality={100}
                 />
               </Link>
-              <Link href={"https://www.instagram.com/noblelartey/"} target="_blank">
+              <Link
+                href={"https://www.instagram.com/noblelartey/"}
+                target="_blank"
+              >
                 <Image
                   className=""
                   src={"/images/instagram-brands.svg"}
@@ -129,7 +136,7 @@ const Homepage = () => {
               beacon of progress, I am thrilled to cast my own light on the
               horizons of Technology. With a solid background in Renewable
               Energy Engineering and skill set on Software Engineering, I am
-              clearly a man on a missioin, and here to spark a digital
+              clearly a man on a mission, and here to spark a digital
               revolution.
             </div>
             <div className=" justify-center items-center text-justify p-4 text-[1.4rem] text-white/70 ">
@@ -147,6 +154,14 @@ const Homepage = () => {
             </div>
             <div></div>
           </div>
+        </div>
+      </div>
+
+      {/* Projects Session */}
+      <div className=" bg-black ">
+        <div className=" grid lg:grid-cols-2 ">
+          <ThreeDCardDemo />
+          <ThreeDCardDemo />
         </div>
       </div>
     </section>
