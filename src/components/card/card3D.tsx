@@ -31,7 +31,8 @@ export function ThreeDCardDemo() {
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
+        
+        {/* <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
             as={Link}
@@ -48,7 +49,7 @@ export function ThreeDCardDemo() {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
   );

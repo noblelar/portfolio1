@@ -159,9 +159,16 @@ const Homepage = () => {
 
       {/* Projects Session */}
       <div className=" bg-black ">
-        <div className=" grid lg:grid-cols-2 ">
-          <ThreeDCardDemo />
-          <ThreeDCardDemo />
+        <div className=" grid lg:grid-cols-2 3xl:grid-cols-3 ">
+          <Link href={"#"}>
+            <ThreeDCardDemo />
+          </Link>
+          <Link href={"#"}>
+            <ThreeDCardDemo />
+          </Link>
+          <Link href={"#"}>
+            <ThreeDCardDemo />
+          </Link>
         </div>
       </div>
     </section>
