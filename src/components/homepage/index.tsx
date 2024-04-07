@@ -166,9 +166,9 @@ const Homepage = () => {
           <Link href={"#"}>
             <ThreeDCardDemo />
           </Link>
-          <Link href={"#"}>
+          {/* <Link href={"#"}>
             <ThreeDCardDemo />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
