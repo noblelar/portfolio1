@@ -13,7 +13,8 @@ const Header = () => {
             <img
               // className="pt-2"
               className="max-h-[57px] m-auto pt-3"
-              src={"/images/nobleman_logo.svg"}
+              // src={"/images/nobleman_logo.svg"}
+              src={"./images/nobleman_logo.svg"}
               alt=""
               // width={230}
               // height={57}
@@ -31,8 +32,8 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className=" text-white/70 text-[1.1rem] max-lg:hidden ">
             <div className=" space-x-8 ">
-              <Link href={"#"} className=" hover:text-[1.2rem] hover:text-white "> About Me </Link>
-              <Link href={"#"} className=" hover:text-[1.2rem] hover:text-white "> Projects </Link>
+              <Link href={"#about"} className=" hover:text-[1.2rem] hover:text-white "> About Me </Link>
+              <Link href={"#projects"} className=" hover:text-[1.2rem] hover:text-white "> Projects </Link>
               <Link href={"#"} className=" hover:text-[1.2rem] hover:text-white "> Resume </Link>
               <Link href={"#"} className=" hover:text-[1.2rem] hover:text-white "> Contact </Link>
             </div>

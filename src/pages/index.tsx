@@ -11,7 +11,7 @@ export default function Home() {
         <title>Nobleman</title>
         <meta name="Nobleman" content="Nobleman's official Porfolio Website " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/AN.png" />
+        <link rel="icon" href="./AN.png" />
       </Head>
       <main>
         <Homepage />

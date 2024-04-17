@@ -61,14 +61,15 @@ const Homepage = () => {
       </div>
 
       {/* About Session */}
-      <div className=" bg-black/85   ">
+      <div id="about" className=" bg-black/85   ">
         <div className=" container m-auto lg:min-h-[70vh]  max-lg:py-8 lg:p-[3rem] ">
           <div className=" m-auto ">
             <div className=" flex items-center justify-center space-x-6 my-6 ">
               <Link href={"https://twitter.com/LarteyNoble"} target="_blank">
                 <Image
                   className=""
-                  src={"/images/twitter-brands.svg"}
+                  // src={"/images/twitter-brands.svg"}
+                  src={"./images/twitter-brands.svg"}
                   alt="My image"
                   width={40}
                   height={40}
@@ -81,7 +82,8 @@ const Homepage = () => {
               >
                 <Image
                   className=""
-                  src={"/images/linkedin-brands.svg"}
+                  // src={"/images/linkedin-brands.svg"}
+                  src={"./images/linkedin-brands.svg"}
                   alt="My image"
                   width={40}
                   height={40}
@@ -92,7 +94,8 @@ const Homepage = () => {
               <Link href={"mailto:nobleackor@gmail.com"} target="_blank">
                 <Image
                   className=""
-                  src={"/images/envelope-open-regular.svg"}
+                  // src={"/images/envelope-open-regular.svg"}
+                  src={"./images/envelope-open-regular.svg"}
                   alt="My image"
                   width={40}
                   height={40}
@@ -102,7 +105,8 @@ const Homepage = () => {
               <Link href={"https://github.com/noblelar"} target="_blank">
                 <Image
                   className=""
-                  src={"/images/github-brands.svg"}
+                  // src={"/images/github-brands.svg"}
+                  src={"./images/github-brands.svg"}
                   alt="My image"
                   width={40}
                   height={40}
@@ -115,7 +119,8 @@ const Homepage = () => {
               >
                 <Image
                   className=""
-                  src={"/images/instagram-brands.svg"}
+                  // src={"/images/instagram-brands.svg"}
+                  src={"./images/instagram-brands.svg"}
                   alt="My image"
                   width={40}
                   height={40}
@@ -151,7 +156,7 @@ const Homepage = () => {
               of a programing Languague after following industry trends and
               realising how fast various Engineering field are been Digitised
               with AI integration in recent years. I can proudly say that I
-              thrive in my challenge.
+              thrived in my challenge.
             </div>
             <div></div>
           </div>
