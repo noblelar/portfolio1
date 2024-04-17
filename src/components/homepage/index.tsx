@@ -34,7 +34,8 @@ const Homepage = () => {
           <div className=" flex items-center justify-center ">
             <Image
               className=""
-              src={"/images/my_image_hd.png"}
+              // src={"/images/my_image_hd.png"}
+              src={"./images/my_image_hd.png"}
               alt="My image"
               width={400}
               height={400}
